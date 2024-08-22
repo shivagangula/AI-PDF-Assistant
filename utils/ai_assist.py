@@ -22,7 +22,7 @@ llm_model = ChatOpenAI(api_key=API_KEY)
 persistent_client = chromadb.PersistentClient()
 
 vector_store_from_client = Chroma(
-    collection_name="resumes_embeddings",
+    collection_name="pdfs_embeddings",
     embedding_function=embeddings_model,
     client=persistent_client,
 

@@ -60,8 +60,9 @@ streamlit run app.py
    ![Upload PDF](docs/s1.png)
 
 3. **Interact with the Assistant:**
-   - For example, i am upload my resume, you can then ask questions about it.
    - Once the PDF is uploaded, ask questions related to the content of the PDF.
+   - For example, i am upload my resume, you can then ask questions about it.
    - The assistant will provide answers based on the uploaded document.
 
    ![Ask Questions](docs/s2.png)
+
