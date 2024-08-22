@@ -48,6 +48,12 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+### 7.  Troubleshoot
+If something goes wrong and the application is not working properly, check the logs for more information
+
+```bash
+less logs/error.log
+```
 
 ## How to Use
 1. **Run the Application:**
