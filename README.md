@@ -3,6 +3,7 @@
 
 AI PDF Assistant reads all uploaded PDF files and generates questions and answers from them, built using LangChain, Streamlit, and OpenAI.
 
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
@@ -47,5 +48,20 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-### 8. How to use
-After opening the browser, keep the left-side menu open and click on 'Upload'. Here, you can upload any number of PDFs and then chat with the assistant about whatever you need from PDF content
+
+## How to Use
+1. **Run the Application:**
+   After starting the application, open your web browser. http://localhost:8501/
+
+2. **Upload PDFs:**
+   - Keep the left-side menu open and click on 'Upload'. 
+   - You can upload any number of PDFs one after one. 
+
+   ![Upload PDF](docs/s1.png)
+
+3. **Interact with the Assistant:**
+   - For example, i am upload my resume, you can then ask questions about it.
+   - Once the PDF is uploaded, ask questions related to the content of the PDF.
+   - The assistant will provide answers based on the uploaded document.
+
+   ![Ask Questions](docs/s2.png)
